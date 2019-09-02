@@ -1,0 +1,10 @@
+// Li Jung Chen cs610 1378 prp
+HANDOUT 2 ADHERED; NO BUGS TO REPORT
+
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC)
+
+compile: cc henc_1378.c -o henc_1378
+	 cc hdec_1378.c -o hdec_1378
+
+example: ./henc_1378 file1             // to encode a file
+         ./hdec_1378 file1.huf         // to decode a file
